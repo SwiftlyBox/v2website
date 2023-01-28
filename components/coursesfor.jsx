@@ -115,8 +115,8 @@ function IRLcourses() {
 
               <div className="mt-4">
                 <a href=" https://wa.me/658808362">
-                  <button style={{ color: "blue", padding: 20 }}>
-                    Book your spot today
+                  <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                    Book
                   </button>
                 </a>
               </div>

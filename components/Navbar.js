@@ -1,15 +1,6 @@
 import React from "react";
 import Image from "next/image";
 import jus from "../public/assets/jus.png";
-import {
-  
-  Button,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller,
-} from "react-scroll";
 import Link from "next/link"
 import Nav from "./Nav";
 
@@ -25,7 +16,6 @@ const Navbar = () => {
           <Link href="services">
             <p>Our Services</p>
           </Link>
-
           <Link href="courses">
             <p>Courses</p>
           </Link>

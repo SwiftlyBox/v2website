@@ -3,7 +3,6 @@ import shop from "../public/assets/shop.jpg";
 import socials from "../public/assets/socials.jpg";
 import client from "../public/assets/client.jpg";
 import shitprinting from "../public/assets/shitprinting.png";
-
 import photoshoot from "../public/assets/photoshoot.jpg";
 import photoshopuse from "../public/assets/photoshopuse.png";
 import website from "../public/assets/website.jpg";

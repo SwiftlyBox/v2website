@@ -9,9 +9,11 @@ const Footer = () => {
     <div className="container mx-auto my-10">
       <div className="bg-[#f8fafe] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-5 lg:gap-10 px-10 py-10 rounded-3xl items-center justify-center ">
         <div className="flex flex-col items-center lg:items-start gap-5">
-          <p className="text-center lg:text-start">
-            10 Robert Sobukwe Road ,Bellville,Cape Town,7530
-          </p>
+          
+            <p className="text-center lg:text-start">
+              10 Robert Sobukwe Road ,Bellville,Cape Town,7530
+            </p>
+          
         </div>
         <div className="flex flex-col items-center lg:items-start gap-5">
           <p className="text-xl font-medium">Company</p>
@@ -21,10 +23,9 @@ const Footer = () => {
           <Link href="contact">
             <p className="text-base">Contact</p>
           </Link>
-          <Link to="courses">
+          <Link href="courses">
             <p className="text-base">Courses</p>
           </Link>
-          
         </div>
 
         <div className="footer flex flex-col items-center lg:items-start gap-5">
