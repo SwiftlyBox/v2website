@@ -2,7 +2,6 @@ import React from "react";
 import Image from "next/image";
 import jus from "../public/assets/jus.png";
 import {
-  Link,
   Button,
   Element,
   Events,
@@ -10,6 +9,8 @@ import {
   scrollSpy,
   scroller,
 } from "react-scroll";
+import Link from "next/link"
+
 
 const Navbar = () => {
   return (
@@ -22,42 +23,12 @@ const Navbar = () => {
           <Link href="services">
             <p>Our Services</p>
           </Link>
-          <Link
-            activeClass="active"
-            to="1"
-            spy={true}
-            smooth={true}
-            offset={50}
-            duration={500}
-          >
-            <p>Our Values </p>
-          </Link>
 
-          <Link
-            activeClass="active"
-            to="3"
-            spy={true}
-            smooth={true}
-            offset={50}
-            duration={500}
-          >
-            <p>FAQ</p>
-          </Link>
           <Link href="courses">
             <p>Courses</p>
           </Link>
           <Link href="contact">
             <p>Contact</p>
-          </Link>
-          <Link
-            activeClass="active"
-            to="4"
-            spy={true}
-            smooth={true}
-            offset={50}
-            duration={500}
-          >
-            <p>Past Work </p>
           </Link>
         </div>
 
