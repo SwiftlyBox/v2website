@@ -8,7 +8,6 @@ import MoreInfo from "./MoreInfo";
 import Values from "./Values";
 import Gallery from "./gallery";
 import AboutUs from "./aboutus"
-import Popup from "./Pop-up";
 import WhatsAppButton from "../components/whatsapp";
 
 
