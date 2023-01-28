@@ -41,19 +41,25 @@ const Footer = () => {
           >
             <p className="text-base">Our Values</p>
           </Link>
-          <Link
-            activeClass="active"
-            to="3"
-            spy={true}
-            smooth={true}
-            offset={50}
-            duration={500}
-          >
-            <p className="text-base">Support</p>
+          <Link to="courses">
+            <p className="text-base">Courses</p>
           </Link>
-          <a href=" https://wa.me/658808362">
+          <Link href="contact">
             <p className="text-base">Contact</p>
-          </a>
+          </Link>
+        </div>
+
+        <div className="footer flex flex-col items-center lg:items-start gap-5">
+          <p className="text-xl font-medium">Legal</p>
+          <Link href="Privacy">
+            <p className="text-base">Privacy Policy</p>
+          </Link>
+          <Link href="TermsofService">
+            <p className="text-base">Terms of Service</p>
+          </Link>
+        </div>
+        <div className="flex items-center gap-5">
+          <a href="tel:+27658808362">Phone Number: +27 65 880 8362</a>
         </div>
 
         <div className="flex items-center gap-5">

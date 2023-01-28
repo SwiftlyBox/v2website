@@ -6,9 +6,14 @@ import Contact from "./contact";
 import Services from "./services";
 import MoreInfo from "./MoreInfo";
 import Values from "./Values";
+import Gallery from "./gallery";
+
 import Popup from "./Pop-up";
+import WhatsAppButton from "../components/whatsapp";
+
 
 export default function Home() {
+  
   return (
     <div>
       <Head>
@@ -21,11 +26,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Hero />
       <Values />
-      <Services />
+
       <MoreInfo />
-      <Footer />
+      <Gallery />
+      <WhatsAppButton />
     </div>
   );
 }

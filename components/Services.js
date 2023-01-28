@@ -4,7 +4,7 @@ import client from "../public/assets/client.jpg";
 import photoshoot from "../public/assets/photoshoot.jpg";
 import Image from "next/image";
 
-const Teacher = () => {
+const ServicesFor = () => {
   return (
     <section>
       <div className="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-24 max-w-7xl pt-10">
@@ -117,4 +117,4 @@ const Teacher = () => {
   );
 };
 
-export default Teacher;
+export default ServicesFor;

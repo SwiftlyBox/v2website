@@ -1,9 +1,15 @@
 import "../styles/globals.css";
-import Navbar from "../components/Navbar";
+import Hero from '../components/Hero';
 import Footer from "../components/Footer";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />;
+  return (
+    <>
+      <Hero />
+      <Component {...pageProps} />
+      <Footer/>
+    </>
+  );
 }
 
 export default MyApp;
