@@ -7,7 +7,7 @@ import Services from "./services";
 import MoreInfo from "./MoreInfo";
 import Values from "./Values";
 import Gallery from "./gallery";
-
+import AboutUs from "./aboutus"
 import Popup from "./Pop-up";
 import WhatsAppButton from "../components/whatsapp";
 
@@ -27,7 +27,7 @@ export default function Home() {
       </Head>
 
       <Values />
-
+      <AboutUs />
       <MoreInfo />
       <Gallery />
       <WhatsAppButton />

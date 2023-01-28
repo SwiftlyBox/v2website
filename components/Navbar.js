@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import jus from "../public/assets/jus.png";
 import {
+  
   Button,
   Element,
   Events,
@@ -10,6 +11,7 @@ import {
   scroller,
 } from "react-scroll";
 import Link from "next/link"
+import Nav from "./Nav";
 
 
 const Navbar = () => {
@@ -30,6 +32,7 @@ const Navbar = () => {
           <Link href="contact">
             <p>Contact</p>
           </Link>
+          <Nav className="nav invisible lg:visible" />
         </div>
 
         <button className="btn bg-white text-[#7270dd] border-none hover:bg-[#7270dd] hover:text-white capitalize rounded-full invisible lg:visible ">

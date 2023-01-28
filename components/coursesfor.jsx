@@ -12,7 +12,7 @@ function IRLcourses() {
       <section>
         <div className="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-24 max-w-7xl pt-10">
           <p className=" text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-medium  text-black text-center	pb-8		">
-            Our Services
+            Our Courses
           </p>
           <div className="grid w-full grid-cols-1 gap-6 mx-auto lg:grid-cols-3">
             <div className="p-6">
@@ -30,8 +30,8 @@ function IRLcourses() {
 
               <div className="mt-4">
                 <a href=" https://wa.me/658808362">
-                  <button style={{ color: "blue", padding: 20 }}>
-                    Book your spot today
+                  <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                    Book
                   </button>
                 </a>
               </div>
@@ -52,8 +52,8 @@ function IRLcourses() {
 
               <div className="mt-4">
                 <a href=" https://wa.me/658808362">
-                  <button style={{ color: "blue", padding: 20 }}>
-                    Book your spot today
+                  <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                    Book
                   </button>
                 </a>
               </div>
@@ -73,8 +73,8 @@ function IRLcourses() {
 
               <div className="mt-4">
                 <a href=" https://wa.me/658808362">
-                  <button style={{ color: "blue", padding: 20 }}>
-                    Book your spot today
+                  <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                    Book
                   </button>
                 </a>
               </div>
@@ -94,8 +94,8 @@ function IRLcourses() {
 
               <div className="mt-4">
                 <a href=" https://wa.me/658808362">
-                  <button style={{ color: "blue", padding: 20 }}>
-                    Book your spot today
+                  <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                    Book
                   </button>
                 </a>
               </div>

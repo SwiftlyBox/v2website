@@ -10,7 +10,7 @@ return (
       
       style={{ position: "fixed", right: "20px", bottom: "20px" }}
     >
-      <FaWhatsapp size={120} style={{ backgroundColor: "lightgreen",borderRadius:40 }} />
+      <FaWhatsapp size={90} style={{ backgroundColor: "lightgreen",borderRadius:40 }} />
     </button>
   </a>
 );
