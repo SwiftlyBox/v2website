@@ -18,6 +18,11 @@ const Hero = () => {
             <button className="btn btn-sm lg:btn-lg bg-[#524fd5] text-white rounded-full border-none w-36 lg:w-44 capitalize">
               <a href=" https://wa.me/658808362">Get A Quote</a>
             </button>
+    <h1 class="text-2xl font-bold text-red-500">Property Of CJ Consulting</h1>
+
+
+
+
           </div>
         </div>
       </div>
