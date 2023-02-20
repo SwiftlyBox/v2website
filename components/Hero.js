@@ -10,7 +10,7 @@ const Hero = () => {
         <Navbar />
         <div className="flex flex-col lg:flex-row  sm:flex-row md:flex-row justify-center  lg:justify-between sm:justify-between md:justify-between items-center gap-5">
           <div className="flex flex-col gap-5 lg:gap-10 md:gap-10">
-           <h1 class="text-2xl font-bold text-white	">Property Of CJ Consulting</h1>
+           
             <p className=" text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-medium  text-white		">
               Branding <br className="lg:flex hidden" /> on clothing apparel,
               cups,electronics and vehicles.
