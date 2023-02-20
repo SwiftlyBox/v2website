@@ -13,7 +13,6 @@ const Footer = () => {
             <p className="text-center lg:text-start">
               10 Robert Sobukwe Road ,Bellville,Cape Town,7530
             </p>
-            <h1 class="text-2xl font-bold text-red-500">Property Of CJ Consulting</h1>
 
 
 
