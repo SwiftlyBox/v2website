@@ -1,14 +1,26 @@
-import React, { Component } from "react";
+import React, { Component } from "react"
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import Image from "next/image";
-import hot1 from "../public/assets/hot1 .jpg";
-import hot2 from "../public/assets/hot2.jpg";
-import hot3 from "../public/assets/hot3.jpg";
-import hot4 from "../public/assets/hot4.jpg";
-import hot5 from "../public/assets/hot5.jpg";
-import hot6 from "../public/assets/hot6.jpg";
-import hot7 from "../public/assets/hot7.jpg";
+import a from "../public/assets/a.jpg";
+import b from "../public/assets/b.jpg";
+import c from "../public/assets/c.jpg";
+import e from "../public/assets/e.jpg";
+import g from "../public/assets/g.jpg";
+import h from "../public/assets/h.jpg";
+import i from "../public/assets/i.jpg";
+import j from "../public/assets/j.jpg";
+import k from "../public/assets/k.jpg";
+import lm from "../public/assets/lm.jpg";
+import m from "../public/assets/m.jpg";
+import mn from "../public/assets/mn.jpg";
+import o from "../public/assets/o.jpg";
+import p from "../public/assets/p.jpg";
+import r from "../public/assets/r.jpg";
+import s from "../public/assets/s.jpg";
+
+
+
 
 const Gallery = () => {
   return (
@@ -17,7 +29,7 @@ const Gallery = () => {
         {` 
       .slider-container {
               width: 100%;
-              height: 0%;
+              height: 100%;
           `}
       </style>
       <section id="4">
@@ -28,64 +40,147 @@ const Gallery = () => {
           <Carousel className="slider-container" showArrows={true} width="100">
             <div>
               <Image
-                src={hot1}
+                src={a}
                 alt="Past Work"
                 width="500"
-                height="10"
-                style={{ borderRadius: 20,height:'10' }}
+                height="100"
+                style={{ borderRadius: 20, height: "10" }}
               />
             </div>
             <div>
               <Image
-                src={hot2}
+                src={b}
                 alt="Past Work"
                 width="500"
-                height="20"
+                height="100"
                 style={{ borderRadius: 20 }}
               />
             </div>
+
             <div>
               <Image
-                src={hot3}
+                src={e}
                 alt="Past Work"
                 width="500"
-                height="20"
+                height="100"
                 style={{ borderRadius: 20 }}
               />
             </div>
+
             <div>
               <Image
-                src={hot4}
-                alt="Past Work"
-                width="500"
-                height="20"
-                style={{ borderRadius: 20 }}
-              />
-            </div>
-            <div>
-              <Image
-                src={hot5}
+                src={g}
                 alt="image1"
                 width="500"
-                height="20"
+                height="100"
                 style={{ borderRadius: 20 }}
               />
             </div>
             <div>
               <Image
-                src={hot6}
+                src={h}
                 alt="image1"
                 width="500"
-                height="20"
+                height="100"
                 style={{ borderRadius: 20 }}
               />
             </div>
             <div>
               <Image
-                src={hot7}
+                src={i}
                 alt="image1"
                 width="500"
-                height="20"
+                height="100"
+                style={{ borderRadius: 20 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={j}
+                alt="image1"
+                width="500"
+                height="100"
+                style={{ borderRadius: 20 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={k}
+                alt="image1"
+                width="500"
+                height="100"
+                style={{ borderRadius: 20 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={lm}
+                alt="image1"
+                width="500"
+                height="100"
+                style={{ borderRadius: 20 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={m}
+                alt="image1"
+                width="500"
+                height="100"
+                style={{ borderRadius: 20 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={mn}
+                alt="image1"
+                width="500"
+                height="100"
+                style={{ borderRadius: 20 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={m}
+                alt="image1"
+                width="500"
+                height="100"
+                style={{ borderRadius: 20 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={o}
+                alt="image1"
+                width="500"
+                height="100"
+                style={{ borderRadius: 20 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={p}
+                alt="image1"
+                width="500"
+                height="100"
+                style={{ borderRadius: 20 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={r}
+                alt="image1"
+                width="500"
+                height="100"
+                style={{ borderRadius: 20 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={s}
+                alt="image1"
+                width="500"
+                height="100"
                 style={{ borderRadius: 20 }}
               />
             </div>
